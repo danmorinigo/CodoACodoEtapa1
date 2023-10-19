@@ -9,8 +9,8 @@
     <title>Integrador FrontEnd</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar sticky-top navbar-expand-md colorFondoEncabezado pt-0 pb-2" aria-label="Thirteenth navbar example">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md colorFondoEncabezado pt-0 pb-2" aria-label="Thirteenth navbar example">
             <div class="container-xl">
                 <a class="navbar-brand me-0 text-white pe-0" href="#">
                     <img src="Archivos/codoacodo.png" alt="Logo" width="100px" class="d-inline-block">
@@ -19,12 +19,10 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                
                 <div class="collapse navbar-collapse d-md-flex" id="navbarsExample11">
                     <ul class="navbar-nav flex-grow-1 justify-content-end align-items-end text-center">
                         <li class="nav-item">
                             <a class="nav-link linkActivo" href="#">La conferencia</a>
-                            <!--<a class="nav-link active" aria-current="page" href="#">Home</a>-->
                         </li>
                         <li class="nav-item">
                             <a class="nav-link linkInactivo" href="#">Los oradores</a>
@@ -39,36 +37,43 @@
                             <a class="nav-link linkComprarTickets" href="#">Comprar tickets</a>
                         </li>
                     </ul>
-              
-                <!--<div class="d-lg-flex col-auto justify-content-lg-end  border border-black">
-                  <button class="btn btn-primary">Button</button>
-                </div>-->
-              </div>
-            </div>
-          </nav>  
-        <!--
-        <div class="container">
-            <div class="row">
-                <div class="col-3 logoCodoACodo">
-                    <img src="Archivos/codoacodo.png" alt="Logo Codo a Codo" width="100" class="d-inline-block align-text-bottom">
-                    Conf Bs As
-                </div>
-                <div class="col-9 navegadorSitio">
-                    <ul>
-                        <li><a href="#" class="seleccionado">La conferencia</a></li>
-                        <li><a href="#" style="color: grey;">Los oradores</a></li>
-                        <li><a href="#" style="color: grey;">El lugar y la fecha</a></li>
-                        <li><a href="#" style="color: grey;">Conviértete en orador</a></li>
-                        <li><a href="#" style="color: green;">Comprar tickets</a></li>
-                        
-                    </ul>
                 </div>
             </div>
-        </div>
-        -->
+        </nav>  
     </header>
     
     <main>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Archivos/ba1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+            
+            </div>
+              <div class="carousel-item">
+                <img src="Archivos/ba2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Archivos/ba3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          
+            
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>-->
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>-->
+            </button>
+            
+           
+        </div>
+
         <!--
         <div id="carouselSlidesOnly" class="carousel slide position-relative d-flex align-items-center justify-content-end" data-bs-ride="carousel">
             <div class="carousel-inner">
