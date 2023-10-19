@@ -17,6 +17,19 @@ header
     color: white;
     */
 }
+.linkActivo
+{
+    color:ghostwhite;
+    
+}
+.linkInactivo
+{
+    color: rgb(113, 113, 113);
+}
+.linkComprarTickets
+{
+    color:rgb(5, 160, 5);
+}
 /*
 .logoCodoACodo
 {
