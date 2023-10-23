@@ -7,16 +7,10 @@
 .colorFondoEncabezado
 {
     background-color: rgb(75, 74, 74);
+    opacity: 90%;
 }
-header
-{
-    /*
-    width: 100%;
-    height: 55px;
-    background-color: rgb(67, 65, 65);
-    color: white;
-    */
-}
+
+
 .linkActivo
 {
     color:ghostwhite;
@@ -43,6 +37,34 @@ header
 {
     opacity: 100%;
     background-color: rgb(4, 185, 4);
+}
+.tamanioBotonesCard 
+{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.javaScript
+{
+    background-color:yellow;
+}
+.react
+{
+    color: azure;
+    background-color:cornflowerblue;
+}
+.negocios
+{
+    color: white;
+    background-color:rgb(116, 115, 115);
+}
+.startUps
+{
+    color: white;
+    background-color: red;
+}
+.card-title
+{
+    font-weight: bold;
 }
 /*
 .logoCodoACodo
