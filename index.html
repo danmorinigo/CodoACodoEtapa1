@@ -9,6 +9,7 @@
     <title>Integrador FrontEnd</title>
 </head>
 <body>
+    <a name="laConferencia"></a>
     <header class="sticky-top">
         <nav class="navbar navbar-expand-md colorFondoEncabezado pt-0 pb-2" aria-label="Thirteenth navbar example">
             <div class="container-xl">
@@ -19,16 +20,32 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-md-flex" id="navbarsExample11">
-                    <ul class="navbar-nav flex-grow-1 justify-content-end align-items-end text-end me-1">
+                <div class="collapse navbar-collapse d-md-flex acotado" id="navbarsExample11">
+                    <ul class="navbar-nav flex-grow-1 justify-content-between align-items-end text-end me-1 linkEncabezado">
+                        <li class="nav-item border border-white">
+                            <a class="" href="#laConferencia">La conferencia</a>
+                        </li>
+                        <li class="nav-item border border-white">
+                            <a class="" href="#losOradores">Los oradores</a>
+                        </li>
+                        <li class="nav-item border border-white">
+                            <a class="" href="#lugarYFecha">El lugar y la fecha</a>
+                        </li>
+                        <li class="nav-item border border-white">
+                            <a class="" href="#">Conviértete en orador</a>
+                        </li>
+                        <li class="nav-item border border-white">
+                            <a class="linkComprarTickets" href="#">Comprar tickets</a>
+                        </li>
+                        <!--
                         <li class="nav-item">
-                            <a class="nav-link linkActivo" href="#">La conferencia</a>
+                            <a class="" href="#laConferencia">La conferencia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link linkInactivo" href="#">Los oradores</a>
+                            <a class="nav-link linkInactivo" href="#losOradores">Los oradores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link linkInactivo" href="#">El lugar y la fecha</a>
+                            <a class="nav-link" href="#lugarYFecha">El lugar y la fecha</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link linkInactivo" href="#">Conviértete en orador</a>
@@ -36,6 +53,7 @@
                         <li class="nav-item">
                             <a class="nav-link linkComprarTickets" href="#">Comprar tickets</a>
                         </li>
+                        -->
                     </ul>
                 </div>
             </div>
@@ -43,6 +61,7 @@
     </header>
     
     <main>
+        
         <div id="carouselExampleAutoplaying" class="carousel slide position-relative d-flex align-items-center justify-content-end" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -92,6 +111,7 @@
             </div>
         </div>
         
+        <a name="losOradores"></a>
         <div class="container p-3" style="max-width: 70%;">
             <p style="text-align: center; font-size:0.7rem;" >CONOCE A LOS<br><spam  style="font-size:1.5rem;">ORADORES<spam></spam></p>
         
@@ -133,6 +153,7 @@
             </div>
         </div>
 
+        <a name="lugarYFecha"></a>
         <div class="container-fluid p-0">
             <div class="row g-0 m-0">
                 <div class="col-sm-6 border border-white">
@@ -142,8 +163,13 @@
                 <div class="col-sm-6 p-2 border border-white" style="background-color:rgb(49, 48, 48);">
                 <div class="card-body text-white">
                     <h5 class="card-title">Bs As - Octubre</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    <p class="card-text mt-2 mb-4">
+                        Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos.
+                        Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu
+                        se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu
+                        han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km<sup>2</sup> de superficie).
+                    </p>
+                    <button type="button" class="btn btn-outline-light">Conocé más</button>
                 </div>
                 </div>
             </div>
@@ -152,8 +178,7 @@
         
         
 
-
-
+ 
         <!--
             <div class="position-absolute text-end col-md-6 col-12 text-light px-5">
                 <div class="d-none d-md-block pt-5 mt-5">

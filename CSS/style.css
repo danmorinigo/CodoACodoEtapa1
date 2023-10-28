@@ -4,6 +4,41 @@
     padding: 0;
 }
 
+
+
+.acotado
+{
+    max-width: 70%;
+}
+.linkEncabezado li
+{
+    padding-left: 10px;
+}
+.linkEncabezado a
+{
+    text-decoration: none;
+    
+    
+}
+.linkEncabezado a:link
+{
+    color: blueviolet;
+}
+.linkEncabezado a:visited
+{
+    color: firebrick;
+}
+.linkEncabezado a:hover
+{
+    color:yellow;
+    font-weight: bold;
+}
+.linkEncabezado a:active
+{
+    color: aqua;
+}
+
+
 .colorFondoEncabezado
 {
     background-color: rgb(75, 74, 74);
@@ -26,7 +61,7 @@
 }
 .opaco
 {
-    filter:brightness(20%)
+    filter:brightness(50%)
 }
 .colorVerde
 {
