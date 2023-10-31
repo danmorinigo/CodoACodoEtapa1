@@ -128,3 +128,22 @@ footer a:hover
     width: 200px;
     height: 200px;
 }
+.estiloCabeceraDescuentos
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.estiloDescuentos
+{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.estiloRecordatorio
+{
+    font-size: 00.8rem;
+}
+.valorTicket
+{
+    font-size: 2.0rem;
+    margin-top: 0px;
+}
